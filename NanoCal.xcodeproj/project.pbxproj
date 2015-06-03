@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		434FA3031B1EBE6400C93AA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FA3021B1EBE6400C93AA0 /* AppDelegate.swift */; };
+		434FA3051B1EBE6400C93AA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FA3041B1EBE6400C93AA0 /* ViewController.swift */; };
+		434FA3081B1EBE6400C93AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434FA3061B1EBE6400C93AA0 /* Main.storyboard */; };
+		434FA30A1B1EBE6400C93AA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434FA3091B1EBE6400C93AA0 /* Images.xcassets */; };
+		434FA30D1B1EBE6400C93AA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 434FA30B1B1EBE6400C93AA0 /* LaunchScreen.xib */; };
+		434FA3191B1EBE6400C93AA0 /* NanoCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FA3181B1EBE6400C93AA0 /* NanoCalTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		434FA3131B1EBE6400C93AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434FA2F51B1EBE6400C93AA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434FA2FC1B1EBE6400C93AA0;
+			remoteInfo = NanoCal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		434FA2FD1B1EBE6400C93AA0 /* NanoCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		434FA3011B1EBE6400C93AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434FA3021B1EBE6400C93AA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		434FA3041B1EBE6400C93AA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		434FA3071B1EBE6400C93AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		434FA3091B1EBE6400C93AA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		434FA30C1B1EBE6400C93AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		434FA3121B1EBE6400C93AA0 /* NanoCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoCalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		434FA3171B1EBE6400C93AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434FA3181B1EBE6400C93AA0 /* NanoCalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoCalTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		434FA2FA1B1EBE6400C93AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FA30F1B1EBE6400C93AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		434FA2F41B1EBE6400C93AA0 = {
+			isa = PBXGroup;
+			children = (
+				434FA2FF1B1EBE6400C93AA0 /* NanoCal */,
+				434FA3151B1EBE6400C93AA0 /* NanoCalTests */,
+				434FA2FE1B1EBE6400C93AA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		434FA2FE1B1EBE6400C93AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				434FA2FD1B1EBE6400C93AA0 /* NanoCal.app */,
+				434FA3121B1EBE6400C93AA0 /* NanoCalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		434FA2FF1B1EBE6400C93AA0 /* NanoCal */ = {
+			isa = PBXGroup;
+			children = (
+				434FA3021B1EBE6400C93AA0 /* AppDelegate.swift */,
+				434FA3041B1EBE6400C93AA0 /* ViewController.swift */,
+				434FA3061B1EBE6400C93AA0 /* Main.storyboard */,
+				434FA3091B1EBE6400C93AA0 /* Images.xcassets */,
+				434FA30B1B1EBE6400C93AA0 /* LaunchScreen.xib */,
+				434FA3001B1EBE6400C93AA0 /* Supporting Files */,
+			);
+			path = NanoCal;
+			sourceTree = "<group>";
+		};
+		434FA3001B1EBE6400C93AA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				434FA3011B1EBE6400C93AA0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		434FA3151B1EBE6400C93AA0 /* NanoCalTests */ = {
+			isa = PBXGroup;
+			children = (
+				434FA3181B1EBE6400C93AA0 /* NanoCalTests.swift */,
+				434FA3161B1EBE6400C93AA0 /* Supporting Files */,
+			);
+			path = NanoCalTests;
+			sourceTree = "<group>";
+		};
+		434FA3161B1EBE6400C93AA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				434FA3171B1EBE6400C93AA0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		434FA2FC1B1EBE6400C93AA0 /* NanoCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434FA31C1B1EBE6400C93AA0 /* Build configuration list for PBXNativeTarget "NanoCal" */;
+			buildPhases = (
+				434FA2F91B1EBE6400C93AA0 /* Sources */,
+				434FA2FA1B1EBE6400C93AA0 /* Frameworks */,
+				434FA2FB1B1EBE6400C93AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NanoCal;
+			productName = NanoCal;
+			productReference = 434FA2FD1B1EBE6400C93AA0 /* NanoCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		434FA3111B1EBE6400C93AA0 /* NanoCalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434FA31F1B1EBE6400C93AA0 /* Build configuration list for PBXNativeTarget "NanoCalTests" */;
+			buildPhases = (
+				434FA30E1B1EBE6400C93AA0 /* Sources */,
+				434FA30F1B1EBE6400C93AA0 /* Frameworks */,
+				434FA3101B1EBE6400C93AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				434FA3141B1EBE6400C93AA0 /* PBXTargetDependency */,
+			);
+			name = NanoCalTests;
+			productName = NanoCalTests;
+			productReference = 434FA3121B1EBE6400C93AA0 /* NanoCalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		434FA2F51B1EBE6400C93AA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nate Armstrong";
+				TargetAttributes = {
+					434FA2FC1B1EBE6400C93AA0 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					434FA3111B1EBE6400C93AA0 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 434FA2FC1B1EBE6400C93AA0;
+					};
+				};
+			};
+			buildConfigurationList = 434FA2F81B1EBE6400C93AA0 /* Build configuration list for PBXProject "NanoCal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 434FA2F41B1EBE6400C93AA0;
+			productRefGroup = 434FA2FE1B1EBE6400C93AA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				434FA2FC1B1EBE6400C93AA0 /* NanoCal */,
+				434FA3111B1EBE6400C93AA0 /* NanoCalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		434FA2FB1B1EBE6400C93AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FA3081B1EBE6400C93AA0 /* Main.storyboard in Resources */,
+				434FA30D1B1EBE6400C93AA0 /* LaunchScreen.xib in Resources */,
+				434FA30A1B1EBE6400C93AA0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FA3101B1EBE6400C93AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		434FA2F91B1EBE6400C93AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FA3051B1EBE6400C93AA0 /* ViewController.swift in Sources */,
+				434FA3031B1EBE6400C93AA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FA30E1B1EBE6400C93AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FA3191B1EBE6400C93AA0 /* NanoCalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		434FA3141B1EBE6400C93AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 434FA2FC1B1EBE6400C93AA0 /* NanoCal */;
+			targetProxy = 434FA3131B1EBE6400C93AA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		434FA3061B1EBE6400C93AA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				434FA3071B1EBE6400C93AA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		434FA30B1B1EBE6400C93AA0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				434FA30C1B1EBE6400C93AA0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		434FA31A1B1EBE6400C93AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		434FA31B1B1EBE6400C93AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		434FA31D1B1EBE6400C93AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NanoCal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		434FA31E1B1EBE6400C93AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NanoCal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		434FA3201B1EBE6400C93AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NanoCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoCal.app/NanoCal";
+			};
+			name = Debug;
+		};
+		434FA3211B1EBE6400C93AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NanoCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoCal.app/NanoCal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		434FA2F81B1EBE6400C93AA0 /* Build configuration list for PBXProject "NanoCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434FA31A1B1EBE6400C93AA0 /* Debug */,
+				434FA31B1B1EBE6400C93AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434FA31C1B1EBE6400C93AA0 /* Build configuration list for PBXNativeTarget "NanoCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434FA31D1B1EBE6400C93AA0 /* Debug */,
+				434FA31E1B1EBE6400C93AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		434FA31F1B1EBE6400C93AA0 /* Build configuration list for PBXNativeTarget "NanoCalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434FA3201B1EBE6400C93AA0 /* Debug */,
+				434FA3211B1EBE6400C93AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 434FA2F51B1EBE6400C93AA0 /* Project object */;
+}

@@ -1,0 +1,13 @@
+PODS:
+  - CalendarView (1.0.3):
+    - SwiftMoment (~> 0.1)
+  - SwiftMoment (0.1.2)
+
+DEPENDENCIES:
+  - CalendarView
+
+SPEC CHECKSUMS:
+  CalendarView: 83abf01602d6be66b3ef065e4e95ae813aefc232
+  SwiftMoment: a439fccf86c8f3367557e406204c93ec1269c8c5
+
+COCOAPODS: 0.37.1

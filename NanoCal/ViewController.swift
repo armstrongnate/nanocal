@@ -7,19 +7,40 @@
 //
 
 import UIKit
+import CalendarView
+import SwiftMoment
 
 class ViewController: UIViewController {
 
+  @IBOutlet weak var calendar: CalendarView!
+
+  var date: Moment! {
+    didSet {
+      title = date.format(dateFormat: "MMMM yyyy")
+    }
+  }
+
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    view.backgroundColor = UIColor.blackColor()
+    calendar.backgroundColor = UIColor.blackColor()
+    date = moment()
+    calendar.delegate = self
+    calendar.selectDate(moment().substract(1, .Days))
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-
 
 }
 
+extension ViewController: CalendarViewDelegate {
+
+  func calendarDidSelectDate(date: Moment) {
+    if date.isCloseTo(moment(), precision: 86400) {
+      calendar.selectDate(moment().substract(1, .Days))
+    }
+  }
+
+  func calendarDidPageToDate(date: Moment) {
+    self.date = date
+  }
+
+}

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CalendarView
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
+    
+    let tint = UIColor(red: 208/255.0, green: 2/255.0, blue: 27/255.0, alpha: 1.0)
+    CalendarView.daySelectedBackgroundColor = UIColor.clearColor()
+    CalendarView.daySelectedTextColor = UIColor.whiteColor()
+    CalendarView.todayBackgroundColor = tint
+    CalendarView.todayTextColor = UIColor.whiteColor()
+    CalendarView.otherMonthBackgroundColor = UIColor.clearColor()
+    CalendarView.otherMonthTextColor = UIColor(white: 1.0, alpha: 0.6)
+    CalendarView.dayTextColor = UIColor.whiteColor()
+    CalendarView.dayBackgroundColor = UIColor.clearColor()
+    CalendarView.weekLabelTextColor = UIColor.whiteColor()
     return true
   }
 

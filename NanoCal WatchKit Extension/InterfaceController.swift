@@ -74,8 +74,10 @@ class InterfaceController: WKInterfaceController {
     didSet {
       updateLabels()
       setTitle(firstDayOfMonth.format(dateFormat: "MMMM yyyy"))
-      nextButton.setTitle(firstDayOfMonth.add(1, .Months).format(dateFormat: "MMM"))
-      previousButton.setTitle(firstDayOfMonth.substract(1, .Months).format(dateFormat: "MMM"))
+      nextButton.setTitle(firstDayOfMonth.add(1, .Months)
+        .format(dateFormat: "MMM"))
+      previousButton.setTitle(firstDayOfMonth.substract(1, .Months)
+        .format(dateFormat: "MMM"))
     }
   }
 
@@ -107,14 +109,7 @@ class InterfaceController: WKInterfaceController {
   func updateLabels() {
     var currentDay = firstDayOfMonth.substract(firstDayOfMonth.weekday - 1, .Days)
     for label in dayLabels {
-      label.setText(currentDay.format(dateFormat: "d"))
-      label.setTextColor(.whiteColor())
-      if currentDay.isToday() {
-        label.setTextColor(UIColor(red: 4/255.0, green: 222/255.0, blue: 113/255.0, alpha: 1.0))
-      }
-      else if !currentDay.isSameMonth(firstDayOfMonth) {
-        label.setTextColor(UIColor(white: 1.0, alpha: 0.6))
-      }
+      label.setDate(currentDay, isCurrentMonth: currentDay.isSameMonth(firstDayOfMonth))
       currentDay = currentDay.add(1, .Days)
     }
   }

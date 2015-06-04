@@ -14,6 +14,15 @@
 		434FA30A1B1EBE6400C93AA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434FA3091B1EBE6400C93AA0 /* Images.xcassets */; };
 		434FA30D1B1EBE6400C93AA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 434FA30B1B1EBE6400C93AA0 /* LaunchScreen.xib */; };
 		434FA3191B1EBE6400C93AA0 /* NanoCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FA3181B1EBE6400C93AA0 /* NanoCalTests.swift */; };
+		434FA32B1B1F569E00C93AA0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FA32A1B1F569E00C93AA0 /* InterfaceController.swift */; };
+		434FA32D1B1F569E00C93AA0 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FA32C1B1F569E00C93AA0 /* GlanceController.swift */; };
+		434FA32F1B1F569E00C93AA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434FA32E1B1F569E00C93AA0 /* Images.xcassets */; };
+		434FA3331B1F569E00C93AA0 /* NanoCal WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 434FA3321B1F569E00C93AA0 /* NanoCal WatchKit App.app */; };
+		434FA33B1B1F569E00C93AA0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434FA3391B1F569E00C93AA0 /* Interface.storyboard */; };
+		434FA33D1B1F569E00C93AA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434FA33C1B1F569E00C93AA0 /* Images.xcassets */; };
+		434FA3401B1F569E00C93AA0 /* NanoCal WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 434FA3261B1F569E00C93AA0 /* NanoCal WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7A8B1B2EDA18B9C4AB45D1DE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145F27139CAE36EEB5ABE10E /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		80BD4331692380AEBE0C56B0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145F27139CAE36EEB5ABE10E /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +33,35 @@
 			remoteGlobalIDString = 434FA2FC1B1EBE6400C93AA0;
 			remoteInfo = NanoCal;
 		};
+		434FA3341B1F569E00C93AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434FA2F51B1EBE6400C93AA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434FA3311B1F569E00C93AA0;
+			remoteInfo = "NanoCal WatchKit App";
+		};
+		434FA33E1B1F569E00C93AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434FA2F51B1EBE6400C93AA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434FA3251B1F569E00C93AA0;
+			remoteInfo = "NanoCal WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		434FA3471B1F569E00C93AA0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				434FA3401B1F569E00C93AA0 /* NanoCal WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		145F27139CAE36EEB5ABE10E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +75,15 @@
 		434FA3121B1EBE6400C93AA0 /* NanoCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoCalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		434FA3171B1EBE6400C93AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		434FA3181B1EBE6400C93AA0 /* NanoCalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoCalTests.swift; sourceTree = "<group>"; };
+		434FA3261B1F569E00C93AA0 /* NanoCal WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NanoCal WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		434FA3291B1F569E00C93AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434FA32A1B1F569E00C93AA0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		434FA32C1B1F569E00C93AA0 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		434FA32E1B1F569E00C93AA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		434FA3321B1F569E00C93AA0 /* NanoCal WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NanoCal WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		434FA3381B1F569E00C93AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434FA33A1B1F569E00C93AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		434FA33C1B1F569E00C93AA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		44049D445AFF977F9D1D6EF0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8A4A2583EECAE2D8D0FAF0B6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,6 +101,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A8B1B2EDA18B9C4AB45D1DE /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FA3231B1F569E00C93AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BD4331692380AEBE0C56B0 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +130,8 @@
 			children = (
 				434FA2FF1B1EBE6400C93AA0 /* NanoCal */,
 				434FA3151B1EBE6400C93AA0 /* NanoCalTests */,
+				434FA3271B1F569E00C93AA0 /* NanoCal WatchKit Extension */,
+				434FA3361B1F569E00C93AA0 /* NanoCal WatchKit App */,
 				434FA2FE1B1EBE6400C93AA0 /* Products */,
 				3CC48686E3045CD9860BE3E6 /* Pods */,
 				C7985E57F919035A019510A2 /* Frameworks */,
@@ -86,6 +143,8 @@
 			children = (
 				434FA2FD1B1EBE6400C93AA0 /* NanoCal.app */,
 				434FA3121B1EBE6400C93AA0 /* NanoCalTests.xctest */,
+				434FA3261B1F569E00C93AA0 /* NanoCal WatchKit Extension.appex */,
+				434FA3321B1F569E00C93AA0 /* NanoCal WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +187,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		434FA3271B1F569E00C93AA0 /* NanoCal WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				434FA32A1B1F569E00C93AA0 /* InterfaceController.swift */,
+				434FA32C1B1F569E00C93AA0 /* GlanceController.swift */,
+				434FA32E1B1F569E00C93AA0 /* Images.xcassets */,
+				434FA3281B1F569E00C93AA0 /* Supporting Files */,
+			);
+			path = "NanoCal WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		434FA3281B1F569E00C93AA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				434FA3291B1F569E00C93AA0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		434FA3361B1F569E00C93AA0 /* NanoCal WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				434FA3391B1F569E00C93AA0 /* Interface.storyboard */,
+				434FA33C1B1F569E00C93AA0 /* Images.xcassets */,
+				434FA3371B1F569E00C93AA0 /* Supporting Files */,
+			);
+			path = "NanoCal WatchKit App";
+			sourceTree = "<group>";
+		};
+		434FA3371B1F569E00C93AA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				434FA3381B1F569E00C93AA0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C7985E57F919035A019510A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,10 +245,12 @@
 				434FA2FB1B1EBE6400C93AA0 /* Resources */,
 				84F7F6CEEA01761D6D4E2DDC /* Embed Pods Frameworks */,
 				B16D5BF7236E393A4961229B /* Copy Pods Resources */,
+				434FA3471B1F569E00C93AA0 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				434FA33F1B1F569E00C93AA0 /* PBXTargetDependency */,
 			);
 			name = NanoCal;
 			productName = NanoCal;
@@ -163,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 434FA31F1B1EBE6400C93AA0 /* Build configuration list for PBXNativeTarget "NanoCalTests" */;
 			buildPhases = (
+				A782F5EE399C39B52DDA16EE /* Check Pods Manifest.lock */,
 				434FA30E1B1EBE6400C93AA0 /* Sources */,
 				434FA30F1B1EBE6400C93AA0 /* Frameworks */,
 				434FA3101B1EBE6400C93AA0 /* Resources */,
+				8099B32A660D69A62DC768DE /* Embed Pods Frameworks */,
+				9C13604077AB4164A84AA932 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,6 +277,41 @@
 			productName = NanoCalTests;
 			productReference = 434FA3121B1EBE6400C93AA0 /* NanoCalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		434FA3251B1F569E00C93AA0 /* NanoCal WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434FA3461B1F569E00C93AA0 /* Build configuration list for PBXNativeTarget "NanoCal WatchKit Extension" */;
+			buildPhases = (
+				7460C8C3880F52F671636634 /* Check Pods Manifest.lock */,
+				434FA3221B1F569E00C93AA0 /* Sources */,
+				434FA3231B1F569E00C93AA0 /* Frameworks */,
+				434FA3241B1F569E00C93AA0 /* Resources */,
+				63B956267A5490EC0DD69951 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				434FA3351B1F569E00C93AA0 /* PBXTargetDependency */,
+			);
+			name = "NanoCal WatchKit Extension";
+			productName = "NanoCal WatchKit Extension";
+			productReference = 434FA3261B1F569E00C93AA0 /* NanoCal WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		434FA3311B1F569E00C93AA0 /* NanoCal WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434FA3451B1F569E00C93AA0 /* Build configuration list for PBXNativeTarget "NanoCal WatchKit App" */;
+			buildPhases = (
+				434FA3301B1F569E00C93AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NanoCal WatchKit App";
+			productName = "NanoCal WatchKit App";
+			productReference = 434FA3321B1F569E00C93AA0 /* NanoCal WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
 		};
 /* End PBXNativeTarget section */
 
@@ -192,6 +328,12 @@
 					434FA3111B1EBE6400C93AA0 = {
 						CreatedOnToolsVersion = 6.3.2;
 						TestTargetID = 434FA2FC1B1EBE6400C93AA0;
+					};
+					434FA3251B1F569E00C93AA0 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					434FA3311B1F569E00C93AA0 = {
+						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
@@ -210,6 +352,8 @@
 			targets = (
 				434FA2FC1B1EBE6400C93AA0 /* NanoCal */,
 				434FA3111B1EBE6400C93AA0 /* NanoCalTests */,
+				434FA3251B1F569E00C93AA0 /* NanoCal WatchKit Extension */,
+				434FA3311B1F569E00C93AA0 /* NanoCal WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -232,9 +376,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		434FA3241B1F569E00C93AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FA32F1B1F569E00C93AA0 /* Images.xcassets in Resources */,
+				434FA3331B1F569E00C93AA0 /* NanoCal WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434FA3301B1F569E00C93AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FA33B1B1F569E00C93AA0 /* Interface.storyboard in Resources */,
+				434FA33D1B1F569E00C93AA0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		63B956267A5490EC0DD69951 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7460C8C3880F52F671636634 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8099B32A660D69A62DC768DE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		84F7F6CEEA01761D6D4E2DDC /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,6 +455,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C13604077AB4164A84AA932 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A782F5EE399C39B52DDA16EE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B16D5BF7236E393A4961229B /* Copy Pods Resources */ = {
@@ -300,6 +537,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		434FA3221B1F569E00C93AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434FA32B1B1F569E00C93AA0 /* InterfaceController.swift in Sources */,
+				434FA32D1B1F569E00C93AA0 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -307,6 +553,16 @@
 			isa = PBXTargetDependency;
 			target = 434FA2FC1B1EBE6400C93AA0 /* NanoCal */;
 			targetProxy = 434FA3131B1EBE6400C93AA0 /* PBXContainerItemProxy */;
+		};
+		434FA3351B1F569E00C93AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 434FA3311B1F569E00C93AA0 /* NanoCal WatchKit App */;
+			targetProxy = 434FA3341B1F569E00C93AA0 /* PBXContainerItemProxy */;
+		};
+		434FA33F1B1F569E00C93AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 434FA3251B1F569E00C93AA0 /* NanoCal WatchKit Extension */;
+			targetProxy = 434FA33E1B1F569E00C93AA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -325,6 +581,14 @@
 				434FA30C1B1EBE6400C93AA0 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		434FA3391B1F569E00C93AA0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				434FA33A1B1F569E00C93AA0 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -437,6 +701,7 @@
 		};
 		434FA3201B1EBE6400C93AA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44049D445AFF977F9D1D6EF0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -456,6 +721,7 @@
 		};
 		434FA3211B1EBE6400C93AA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A4A2583EECAE2D8D0FAF0B6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -466,6 +732,64 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoCal.app/NanoCal";
+			};
+			name = Release;
+		};
+		434FA3411B1F569E00C93AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44049D445AFF977F9D1D6EF0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NanoCal WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		434FA3421B1F569E00C93AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A4A2583EECAE2D8D0FAF0B6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "NanoCal WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		434FA3431B1F569E00C93AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = NanoCal_WatchKit_Extension;
+				INFOPLIST_FILE = "NanoCal WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		434FA3441B1F569E00C93AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = NanoCal_WatchKit_Extension;
+				INFOPLIST_FILE = "NanoCal WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
 			};
 			name = Release;
 		};
@@ -495,6 +819,24 @@
 			buildConfigurations = (
 				434FA3201B1EBE6400C93AA0 /* Debug */,
 				434FA3211B1EBE6400C93AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434FA3451B1F569E00C93AA0 /* Build configuration list for PBXNativeTarget "NanoCal WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434FA3431B1F569E00C93AA0 /* Debug */,
+				434FA3441B1F569E00C93AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434FA3461B1F569E00C93AA0 /* Build configuration list for PBXNativeTarget "NanoCal WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434FA3411B1F569E00C93AA0 /* Debug */,
+				434FA3421B1F569E00C93AA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

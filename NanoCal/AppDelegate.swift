@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
     
-    let tint = UIColor(red: 208/255.0, green: 2/255.0, blue: 27/255.0, alpha: 1.0)
+    let tint = UIColor(red: 4/255.0, green: 222/255.0, blue: 113/255.0, alpha: 1.0)
     CalendarView.daySelectedBackgroundColor = UIColor.clearColor()
     CalendarView.daySelectedTextColor = UIColor.whiteColor()
     CalendarView.todayBackgroundColor = tint

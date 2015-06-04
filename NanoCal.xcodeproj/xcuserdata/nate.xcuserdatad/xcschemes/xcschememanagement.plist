@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Glance - NanoCal WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>NanoCal WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>NanoCal.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>434FA3111B1EBE6400C93AA0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>434FA3311B1F569E00C93AA0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

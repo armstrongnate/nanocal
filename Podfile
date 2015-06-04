@@ -4,3 +4,5 @@ use_frameworks!
 
 pod 'CalendarView'
 
+link_with 'NanoCal', 'NanoCalTests', 'NanoCal WatchKit Extension'
+

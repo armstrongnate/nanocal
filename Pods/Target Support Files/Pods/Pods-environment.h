@@ -10,7 +10,7 @@
 #define COCOAPODS_POD_AVAILABLE_CalendarView
 #define COCOAPODS_VERSION_MAJOR_CalendarView 1
 #define COCOAPODS_VERSION_MINOR_CalendarView 0
-#define COCOAPODS_VERSION_PATCH_CalendarView 3
+#define COCOAPODS_VERSION_PATCH_CalendarView 4
 
 // SwiftMoment
 #define COCOAPODS_POD_AVAILABLE_SwiftMoment

@@ -57,8 +57,8 @@ class GlanceController: WKInterfaceController {
   @IBOutlet weak var day40: WKInterfaceLabel!
   @IBOutlet weak var day41: WKInterfaceLabel!
 
-  @IBOutlet weak var weekdayNameLabel: WKInterfaceLabel!
-  @IBOutlet weak var dateLabel: WKInterfaceLabel!
+  @IBOutlet weak var titleLabel: WKInterfaceLabel!
+  @IBOutlet weak var subtitleLabel: WKInterfaceLabel!
 
   lazy var dayLabels: [WKInterfaceLabel] = {
     [
@@ -96,8 +96,9 @@ class GlanceController: WKInterfaceController {
       currentDay = currentDay.add(1, .Days)
     }
 
-    weekdayNameLabel.setText(today.format(dateFormat: "EEEE"))
-    dateLabel.setText(today.format(dateFormat: "d"))
+    titleLabel.setText(today.format(dateFormat: "MMMM"))
+    titleLabel.setTextColor(todayTextColor)
+    subtitleLabel.setText(today.format(dateFormat: "EEEE"))
   }
 
 }

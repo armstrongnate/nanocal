@@ -18,10 +18,14 @@ extension WKInterfaceLabel {
 
   func setDate(date: Moment, isCurrentMonth: Bool) {
     setText(date.format(dateFormat: "d"))
-    setTextColor(date.isToday() ? todayTextColor : .whiteColor())
+    var textColor = UIColor.whiteColor()
     if !isCurrentMonth {
-      setTextColor(otherMonthTextColor)
+      textColor = otherMonthTextColor
     }
+    if date.isToday() {
+      textColor = todayTextColor
+    }
+    setTextColor(textColor)
   }
 
 }

@@ -13,184 +13,190 @@
                         <group width="1" alignment="left" id="uW2-UZ-yj2">
                             <items>
                                 <label width="0.14280000000000001" height="15" alignment="left" text="S" textAlignment="center" minimumScaleFactor="0.10000000000000001" id="jRZ-Jv-DCX">
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <fontDescription key="font" type="boldSystem" pointSize="10"/>
                                 </label>
                                 <label width="0.14280000000000001" height="15" alignment="left" text="M" textAlignment="center" minimumScaleFactor="0.10000000000000001" id="ene-4W-BQQ">
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <fontDescription key="font" type="boldSystem" pointSize="10"/>
                                 </label>
                                 <label width="0.14280000000000001" height="15" alignment="left" text="T" textAlignment="center" minimumScaleFactor="0.10000000000000001" id="LLy-KU-x3R">
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <fontDescription key="font" type="boldSystem" pointSize="10"/>
                                 </label>
                                 <label width="0.14280000000000001" height="15" alignment="left" text="W" textAlignment="center" minimumScaleFactor="0.10000000000000001" id="w3w-tC-cvh">
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <fontDescription key="font" type="boldSystem" pointSize="10"/>
                                 </label>
                                 <label width="0.14280000000000001" height="15" alignment="left" text="T" textAlignment="center" minimumScaleFactor="0.10000000000000001" id="ulK-63-cP5">
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <fontDescription key="font" type="boldSystem" pointSize="10"/>
                                 </label>
                                 <label width="0.14280000000000001" height="15" alignment="left" text="F" textAlignment="center" minimumScaleFactor="0.10000000000000001" id="Iif-0L-ATz">
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <fontDescription key="font" type="boldSystem" pointSize="10"/>
                                 </label>
                                 <label width="0.14280000000000001" height="15" alignment="left" text="S" textAlignment="center" minimumScaleFactor="0.10000000000000001" id="V4D-FE-egk">
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <fontDescription key="font" type="boldSystem" pointSize="10"/>
                                 </label>
                             </items>
                         </group>
-                        <separator alignment="left" alpha="0.29999999999999999" id="s3q-tA-Yy4"/>
-                        <group width="1" height="116" alignment="left" layout="vertical" id="tSd-hS-CC4">
+                        <group width="1" height="84" alignment="left" layout="vertical" id="tSd-hS-CC4">
                             <items>
                                 <group width="1" height="0.1666" alignment="left" spacing="2" id="2fk-XD-mYP">
                                     <items>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="LJW-fG-gnb">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="djN-Mc-Ngi">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="I7u-Jg-mjW">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="of4-cD-TNZ">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="zEx-oj-HnV">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="96V-QK-Pzs">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="tNm-Db-6C7">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                     </items>
                                 </group>
                                 <group width="1" height="0.1666" alignment="left" spacing="2" id="ThI-Wa-2wb">
                                     <items>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="wZJ-9J-IKP">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="uXe-b2-kYP">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="let-4d-MXr">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="r6e-pf-6mt">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="q5r-2t-xGA">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="iLU-Ve-lAu">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="9s5-r5-DR2">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                     </items>
                                 </group>
                                 <group width="1" height="0.1666" alignment="left" spacing="2" id="fcX-At-R4G">
                                     <items>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="CmE-HW-uow">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="owM-7Z-UDO">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="VhZ-c2-X8L">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="ra9-IY-5NA">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="orN-aG-ue8">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="7ZZ-ft-jVp">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="pOp-ad-QLk">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                     </items>
                                 </group>
                                 <group width="1" height="0.1666" alignment="left" spacing="2" id="bg0-M1-PPz">
                                     <items>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="R1a-bb-0lv">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="b3Z-8u-gy4">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="YTi-GE-ytO">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="uHO-7f-au0">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="eGU-dB-XOX">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="VDG-2g-zUf">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="jfK-s9-bVd">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                     </items>
                                 </group>
                                 <group width="1" height="0.1666" alignment="left" spacing="2" id="AoG-Jd-bqJ">
                                     <items>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="cca-C9-WOb">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="Mpp-Pa-EZ3">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="UxT-6L-l85">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="j33-Ou-p7O">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="wAl-JG-cll">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="22n-3l-aRA">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="m5T-64-n5f">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                     </items>
                                 </group>
                                 <group width="1" height="0.1666" alignment="left" spacing="2" id="Op4-jG-pdd">
                                     <items>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="4lM-IF-Tds">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="v1f-mt-T9C">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="VBr-9i-xtD">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="gnU-am-VzC">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="9qV-El-Ren">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="C2N-ND-5hd">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                         <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="ZX5-E2-tZS">
-                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                            <fontDescription key="font" type="system" pointSize="13"/>
                                         </label>
                                     </items>
                                 </group>
                             </items>
-                            <variation key="device=watch38mm" height="125"/>
-                            <variation key="device=watch42mm" height="150"/>
+                            <variation key="device=watch38mm" height="90"/>
+                            <variation key="device=watch42mm" height="113"/>
                         </group>
                         <group width="1" alignment="left" id="nOf-Tf-p7i">
                             <items>
@@ -269,161 +275,195 @@
         <!--Glance Interface Controller-->
         <scene sceneID="rjY-Ar-IMT">
             <objects>
-                <glanceController spacing="0.0" topTemplateType="body1Large" id="Sv0-Ai-Zie" customClass="GlanceController" customModule="NanoCal_WatchKit_App" customModuleProvider="target">
+                <glanceController spacing="0.0" topTemplateType="body1Medium" id="Sv0-Ai-Zie" customClass="GlanceController" customModule="NanoCal_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="left" text="Label" id="Z8d-UO-WIe"/>
-                        <label alignment="left" text="1234" id="NaA-s8-Tn9"/>
-                        <group alignment="left" id="eew-Gs-W6Y">
+                        <label alignment="left" text="Label" id="Z8d-UO-WIe">
+                            <color key="textColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </label>
+                        <label alignment="left" text="1234" minimumScaleFactor="0.5" id="NaA-s8-Tn9"/>
+                        <group alignment="left" layout="vertical" id="eew-Gs-W6Y">
                             <items>
-                                <group width="1" height="1" alignment="left" layout="vertical" id="gJu-uy-abb">
+                                <group width="1" alignment="left" id="eaA-Xq-ydh">
+                                    <items>
+                                        <label width="0.14280000000000001" height="15" alignment="left" text="S" textAlignment="center" minimumScaleFactor="0.10000000000000001" id="l3k-hg-l3Y">
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="10"/>
+                                        </label>
+                                        <label width="0.14280000000000001" height="15" alignment="left" text="M" textAlignment="center" minimumScaleFactor="0.10000000000000001" id="BIa-Np-Ojw">
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="10"/>
+                                        </label>
+                                        <label width="0.14280000000000001" height="15" alignment="left" text="T" textAlignment="center" minimumScaleFactor="0.10000000000000001" id="DAR-R1-Y4C">
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="10"/>
+                                        </label>
+                                        <label width="0.14280000000000001" height="15" alignment="left" text="W" textAlignment="center" minimumScaleFactor="0.10000000000000001" id="vBC-aJ-C0w">
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="10"/>
+                                        </label>
+                                        <label width="0.14280000000000001" height="15" alignment="left" text="T" textAlignment="center" minimumScaleFactor="0.10000000000000001" id="DPk-SL-TbT">
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="10"/>
+                                        </label>
+                                        <label width="0.14280000000000001" height="15" alignment="left" text="F" textAlignment="center" minimumScaleFactor="0.10000000000000001" id="xph-fk-62D">
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="10"/>
+                                        </label>
+                                        <label width="0.14280000000000001" height="15" alignment="left" text="S" textAlignment="center" minimumScaleFactor="0.10000000000000001" id="dIs-w8-DUi">
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="10"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <group width="1" height="84" alignment="left" layout="vertical" id="gJu-uy-abb">
                                     <items>
                                         <group width="1" height="0.1666" alignment="left" spacing="2" id="pgf-cw-o51">
                                             <items>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="VPA-zi-Gow">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="Iek-Vu-Cvj">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="Z1h-NH-l7G">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="Wky-zt-SUE">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="hMP-RL-OvP">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="aa1-Y6-IXU">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="J05-km-rLc">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                             </items>
                                         </group>
                                         <group width="1" height="0.1666" alignment="left" spacing="2" id="ZDT-yi-2CM">
                                             <items>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="92J-BT-7dh">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="zPn-Y1-fD1">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="7Te-dn-sTV">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="E9C-IZ-OsX">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="bOR-za-CsS">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="HKj-2H-Ym9">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="1dG-6A-kXS">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                             </items>
                                         </group>
                                         <group width="1" height="0.1666" alignment="left" spacing="2" id="WRl-3B-37F">
                                             <items>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="vpn-1g-YlE">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="Lnl-u0-0WV">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="iBF-L3-pQj">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="IlC-NN-625">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="m0C-bR-FlS">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="8zJ-MI-Hbp">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="32O-1l-eZI">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                             </items>
                                         </group>
                                         <group width="1" height="0.1666" alignment="left" spacing="2" id="abS-gH-0jy">
                                             <items>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="aNi-UD-NLf">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="Npe-dI-BAh">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="wwZ-oh-FUN">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="Yhc-6C-QuQ">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="p2m-ad-Cjv">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="6HS-qG-2SP">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="phL-dN-rAh">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                             </items>
                                         </group>
                                         <group width="1" height="0.1666" alignment="left" spacing="2" id="HJ7-yb-H77">
                                             <items>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="7M0-QM-IvJ">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="LmE-jR-0Xj">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="1xr-Op-tcy">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="mRT-dG-wJh">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="XOC-N7-W2k">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="x75-wh-rVz">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="yzt-n5-Fe7">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                             </items>
                                         </group>
                                         <group width="1" height="0.1666" alignment="left" spacing="2" id="BTM-nn-MFM">
                                             <items>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="8fw-Sk-TSf">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="rc8-mw-nxG">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="q9n-wJ-So7">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="bT3-0v-PNg">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="XTe-jf-Ziy">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="brd-eG-x2U">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                                 <label width="0.14280000000000001" height="1" alignment="left" text="30" textAlignment="center" id="ql4-HA-4MX">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
                                                 </label>
                                             </items>
                                         </group>
@@ -434,7 +474,6 @@
                     </items>
                     <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
                     <connections>
-                        <outlet property="dateLabel" destination="NaA-s8-Tn9" id="XJe-4G-eQW"/>
                         <outlet property="day0" destination="VPA-zi-Gow" id="1Ts-c3-D35"/>
                         <outlet property="day1" destination="Iek-Vu-Cvj" id="Hmv-Ia-txp"/>
                         <outlet property="day10" destination="E9C-IZ-OsX" id="3MF-mw-TVD"/>
@@ -477,11 +516,13 @@
                         <outlet property="day7" destination="92J-BT-7dh" id="BE3-X9-RLQ"/>
                         <outlet property="day8" destination="zPn-Y1-fD1" id="f7o-zU-Spi"/>
                         <outlet property="day9" destination="7Te-dn-sTV" id="sUL-Uc-eax"/>
-                        <outlet property="weekdayNameLabel" destination="Z8d-UO-WIe" id="4bA-y5-WoJ"/>
+                        <outlet property="subtitleLabel" destination="NaA-s8-Tn9" id="ZfQ-EL-q7m"/>
+                        <outlet property="titleLabel" destination="Z8d-UO-WIe" id="VXm-BU-bNM"/>
                     </connections>
                 </glanceController>
             </objects>
             <point key="canvasLocation" x="164" y="514"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.015686274509803921" green="0.87058823529411766" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

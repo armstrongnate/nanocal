@@ -19,15 +19,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Override point for customization after application launch.
     
     let tint = UIColor(red: 4/255.0, green: 222/255.0, blue: 113/255.0, alpha: 1.0)
-    CalendarView.daySelectedBackgroundColor = UIColor.clearColor()
-    CalendarView.daySelectedTextColor = UIColor.whiteColor()
-    CalendarView.todayBackgroundColor = tint
-    CalendarView.todayTextColor = UIColor.whiteColor()
-    CalendarView.otherMonthBackgroundColor = UIColor.clearColor()
+    CalendarView.daySelectedBackgroundColor = .clearColor()
+    CalendarView.daySelectedTextColor = .whiteColor()
+    CalendarView.todayBackgroundColor = .clearColor()
+    CalendarView.todayTextColor = tint
+    CalendarView.otherMonthBackgroundColor = .clearColor()
     CalendarView.otherMonthTextColor = UIColor(white: 1.0, alpha: 0.6)
-    CalendarView.dayTextColor = UIColor.whiteColor()
-    CalendarView.dayBackgroundColor = UIColor.clearColor()
-    CalendarView.weekLabelTextColor = UIColor.whiteColor()
+    CalendarView.dayTextColor = .whiteColor()
+    CalendarView.dayBackgroundColor = .clearColor()
+    CalendarView.weekLabelTextColor = .lightGrayColor()
     return true
   }
 

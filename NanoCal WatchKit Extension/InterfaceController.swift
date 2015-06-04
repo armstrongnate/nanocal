@@ -73,7 +73,7 @@ class InterfaceController: WKInterfaceController {
   var firstDayOfMonth: Moment! {
     didSet {
       updateLabels()
-      setTitle(firstDayOfMonth.format(dateFormat: "MMMM yyyy"))
+      setTitle(firstDayOfMonth.format(dateFormat: "MMM yyyy"))
       nextButton.setTitle(firstDayOfMonth.add(1, .Months)
         .format(dateFormat: "MMM"))
       previousButton.setTitle(firstDayOfMonth.substract(1, .Months)

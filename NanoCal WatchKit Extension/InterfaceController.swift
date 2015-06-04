@@ -85,7 +85,7 @@ class InterfaceController: WKInterfaceController {
     super.awakeWithContext(context)
     
     // Configure interface objects here.
-    firstDayOfMonth = moment().startOf(.Months)
+    jump()
   }
 
   override func willActivate() {
@@ -104,6 +104,10 @@ class InterfaceController: WKInterfaceController {
 
   @IBAction func previous() {
     firstDayOfMonth = firstDayOfMonth.substract(1, .Months).startOf(.Months)
+  }
+
+  @IBAction func jump() {
+    firstDayOfMonth = moment().startOf(.Months)
   }
 
   func updateLabels() {

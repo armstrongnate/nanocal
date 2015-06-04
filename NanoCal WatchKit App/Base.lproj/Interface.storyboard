@@ -207,6 +207,15 @@
                             </items>
                         </group>
                     </items>
+                    <menu key="menu" id="Nga-yU-PlA">
+                        <items>
+                            <menuItem title="Today" icon="resume" id="ffT-1g-aSQ">
+                                <connections>
+                                    <action selector="jump" destination="AgC-eL-Hgc" id="YEO-9r-nMF"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
                     <connections>
                         <outlet property="day0" destination="LJW-fG-gnb" id="99V-VR-pVO"/>
                         <outlet property="day1" destination="djN-Mc-Ngi" id="g0U-5e-8C8"/>
